@@ -1,8 +1,4 @@
-# TALL-STANDARDS
-
-Our coding guides, tips and standards for [TALL stack](https://tallstack.dev) development.
-
-## Technology Tips
+# Technology Tips
 
 - **T**ailwindCSS:
 
@@ -61,7 +57,9 @@ Our coding guides, tips and standards for [TALL stack](https://tallstack.dev) de
     - It is recommended to reset the form using fill method and right after using the fields.
 
 
-## Version Control
+<br>
+
+# Version Control
 
 We strongly recommend using [Graphite](https://graphite.dev) workflow. Just install it globally as a front-end package using [bun](https://bun.sh) or [npm](https://npm.org). And then check out its workflow explained by reading this [chat](https://chat.openai.com/share/e/be5df3ea-13d4-4c22-9402-a8608736108c) with our ally!
 
@@ -70,7 +68,9 @@ The only thing to note is that the "PR's parent" comment is misleading. When you
 And it's all about the `gt sync` command before **ANYTHING** and after each submission to keep everything up-to-date and removing anything unnecessary. And also `gt ls` or `gt short log` to show everything happenning.
 
 
-## Environment Setup
+<br>
+
+# Environment Setup
 
 If you're on MacOS or Windows, check out [Laravel Herd](https://herd.laravel.com/) to offer you everything you need out of the box.
 
