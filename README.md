@@ -27,7 +27,7 @@
 
 - **L**aravel:
 
-  - When providing `@method` intellisense docs for facades, make sure to consider all the methods even the inherited from other clasese or their traits.
+  - When providing `@method` intellisense docs for facades, make sure to consider even the inherited methods from other clasese or their traits.
 
   - Whenever there is inheritance (extends) and constants or static methods are to be dealt with, please use `static::` over `self::`.
 
