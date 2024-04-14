@@ -1,4 +1,4 @@
-# TALL Tips
+# Tips & Guides
 
 - **T**ailwindCSS:
 
