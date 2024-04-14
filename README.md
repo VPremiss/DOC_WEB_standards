@@ -1,4 +1,4 @@
-# TALL-Standards
+# TALL-STANDARDS
 
 Our coding guides and standards for [TALL stack](https://tallstack.dev) development.
 
