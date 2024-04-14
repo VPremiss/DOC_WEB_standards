@@ -1,4 +1,4 @@
-# Technology Tips
+# TALL Tips
 
 - **T**ailwindCSS:
 
