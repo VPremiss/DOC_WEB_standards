@@ -1,6 +1,6 @@
 # TALL-STANDARDS
 
-Our coding guides and standards for [TALL stack](https://tallstack.dev) development.
+Our coding guides, tips and standards for [TALL stack](https://tallstack.dev) development.
 
 ## Technology Tips:
 
