@@ -1,4 +1,4 @@
-# Tips & Guides
+# Guides & Tips
 
 - **T**ailwindCSS:
 
