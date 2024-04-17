@@ -53,7 +53,7 @@
 
 - Fillament:
 
-  - Be careful when using a $state in a closure, as validations won't apply on them if it's reactive (live).
+  - Be careful when using a `$state` in a closure, as validations won't apply on them if it's reactive (live).
 
   - During Fillament fields data grabbing (submission), it's necessary to take out values quickly from the form's getState method.
     - It is recommended to reset the form using fill method and right after using the fields.
