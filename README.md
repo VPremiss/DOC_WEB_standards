@@ -2,15 +2,6 @@
 
 - **L**ivewire:
 
-  - Use `<livewire:component-name />` tag to call livewire components when they're not full-pages.
-
-  - API calls can never be done from within Livewire in its persistant session setup.
-
-    - Instead you should dispatch out to the front-end and `axios` from there, then you're free to send the results back.
-      - If there are data sent back to livewire, it must be received by a public method, and securing it would be by comparing a previously stored hash of the input.
-
-    - Because of this, the current authentication flow is done via API and through the front-end (and Telegram) as well.
-
   - [ ] How does hooks work from livewire to alpine? Do document me when you re-write narrations timeline
 
 - **L**aravel:
