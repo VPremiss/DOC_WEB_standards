@@ -1,17 +1,5 @@
 # Guides & Tips
 
-- **T**ailwindCSS:
-
-  - [ ] TODO!
-
-- **A**lpineJS:
-
-  - Using the dedicated `x-init` is recommended, to distinguish it from the other methods in `x-data`.
-    - Wrapping the code in a closure is very much recommended as well: `x-init="() => {doSomething(); doAnother();}"`.
-
-  - You're free to inline `x-data` object and write the tall code! But when the feature is ready, link it into an `Alpine.data()` file.
-    - When you have it inlined though, you might encounter issues with double-quotes (`""`) breaking the attribute's. The solution is to use a pair of single-quotes (`''`) or (back ticks) for strings inside instead. And then, in some rare cases, you can also rely on Blade to have indented single-quotes inside each others like this: `.post('{{ route('login') }}', ...)`. 
-
 - **L**ivewire:
 
   - Use `<livewire:component-name />` tag to call livewire components when they're not full-pages.
