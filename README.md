@@ -6,29 +6,7 @@
 
 - **L**aravel:
 
-  - When providing `@method` intellisense docs for facades, make sure to consider even the inherited methods from other clasese or their traits.
-
-  - Whenever there is inheritance (extends) and constants or static methods are to be dealt with, please use `static::` over `self::`.
-
-  - When trying to access input properties that are on a `$request`, please do use `$request->input('propertyName')` instead of accessing it directly.
-
-  - Updating a validation constraint in a model's data trait, must be accounted for in its migration as well; and vice-versa.
-    - Whereas the property orders in the data trait is based on the migration's.
-
-  - There should not be any syncronization between migrations and models' data, because that's how migrations are migratable; stage!
-
-  - Fillable properties on models should be in the order that they're shown in the UI.
-    - There are no fillable properties for pivot models.
-
-  - Casts come after fillable properties on the model.
-    - Use casts method instead of the property in case of non-static values.
-
   - Doing arrays real quick is done via the array service helper's wrap method.
-
-  - Having a Facade setup instead of an ordinary service class gives performance and testing advantages to say the least.
-    - Do not forget, however, that the actual class would have non-static methods. And they'll still work like they're static!
-
-  - If long conditions are to be split spilling over the next two lines or so, make sure to have `||` or `&&` at the beginning of subsequent lines.
 
 - Fillament:
 
