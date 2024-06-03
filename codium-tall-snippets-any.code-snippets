@@ -1,0 +1,22 @@
+{
+	"PHP": {
+		"prefix": "php",
+		"body": [
+			"<?php",
+			"",
+			"$0",
+		],
+		"description": "Declare PHP"
+	},
+	"Strict PHP": {
+		"prefix": "strphp",
+		"body": [
+			"<?php",
+      "",
+			"declare(strict_types = 1);",
+      "",
+			"$0",
+		],
+		"description": "Declare PHP with strict-typing"
+	}
+}
