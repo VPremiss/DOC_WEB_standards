@@ -1,0 +1,103 @@
+{
+	"Comment Block": {
+        "prefix": "comblock",
+        "body": [
+            "// * ${1/./=/g}=",
+            "// * ${1:Something}",
+            "// * ${1/./=/g}$2",
+            "",
+            ""
+        ],
+        "description": "Creates a custom comment block with dynamic equal signs"
+    },
+	"Public Method": {
+		"prefix": "met",
+		"body": [
+			"public function $1($2)",
+			"{",
+			"    $0",
+			"}"
+		],
+		"description": "A public method"
+	},
+	"Protected Method": {
+		"prefix": "pet",
+		"body": [
+			"protected function $1($2)",
+			"{",
+			"    $0",
+			"}"
+		],
+		"description": "A protected method"
+	},
+	"Public Static Method": {
+		"prefix": "mets",
+		"body": [
+			"public static function $1($2)",
+			"{",
+			"    $0",
+			"}"
+		],
+		"description": "A public static method"
+	},
+	"Closure": {
+		"prefix": "clos",
+		"body": [
+			"function ($1) {",
+			"    $0",
+			"}"
+		],
+		"description": "An inlined closure function"
+	},
+	"Constructor": {
+		"prefix": "con",
+		"body": [
+			"public function __construct(private $$something = null) {",
+			"    //$1",
+			"}",
+			"",
+			"$0"
+		],
+		"description": "A normal constructor"
+	},
+	"Final Constructor": {
+		"prefix": "ficon",
+		"body": [
+			"protected function __construct() {",
+			"    // Prevent instantiation",
+			"}",
+			"",
+			"$0"
+		],
+		"description": "A way to make final classes non-instantiatable"
+	},
+	"Fillable Property": {
+		"prefix": "fillable",
+		"body": [
+			"protected $$fillable = [",
+			"    $1",
+			"];",
+			"",
+			"$0"
+		],
+		"description": "Add fillable property to Laravel models"
+	},
+	"Casts Property": {
+		"prefix": "casts",
+		"body": [
+			"protected $$casts = [",
+			"    $1",
+			"];",
+			"",
+			"$0"
+		],
+		"description": "Add casts property to Laravel models"
+	},
+	"Str Support Class": {
+		"prefix": "Str",
+		"body": [
+			"use Illuminate\\Support\\Str;$0"
+		],
+		"description": "Import Laravel Str support class's namespace"
+	}
+}
