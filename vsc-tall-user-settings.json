@@ -1,0 +1,160 @@
+{
+    "window.zoomLevel": 1.8,
+    "editor.minimap.showSlider": "always",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "editor.guides.bracketPairs": true,
+    "editor.hover.above": false,
+    "workbench.editor.empty.hint": "hidden",
+    // * =====
+    // * Font
+    // * ===
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 2,
+    "editor.fontLigatures": true,
+    // * =========
+    // * Behavior
+    // * =======
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.stickyScroll.enabled": false,
+    "workbench.tree.enableStickyScroll": false,
+    "search.exclude": {
+        "**/.drafts": true,
+        "**/build": true,
+        "**/certs": true,
+        "**/node_modules": true,
+        "**/public/css": true,
+        "**/public/js": true,
+        "**/storage/framework": true,
+        "**/vendor": true
+    },
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.linkedEditing": true,
+    "workbench.activityBar.location": "hidden",
+    "workbench.startupEditor": "none",
+    "explorer.autoReveal": false,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.localHistory.maxFileEntries": 500,
+    // "files.exclude": {
+    //     "**/.git": true,
+    //     "**/node_modules": true,
+    //     "**/vendor": true,
+    // },
+    "editor.codeLens": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    // * =======
+    // * Format
+    // * =====
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 130,
+    // * ====================
+    // * Built-in Extensions
+    // * ==================
+    "git.enabled": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.terminalAuthentication": false,
+    // ?
+    // ? ===========
+    // ? Extensions
+    // ? =========
+    // ?
+    // * [UI - Material Theme]
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+    "workbench.colorCustomizations": {
+        "[Community Material Theme Darker High Contrast]": {
+            "breadcrumb.background": "#1a1a1a",
+            "editor.selectionBackground": "#000000dd",
+            "editor.wordHighlightBackground": "#66666699"
+        }
+    },
+    // * [UI - SVG]
+    "svg.preview.mode": "svg",
+    "svg.preview.autoShow": true,
+    // * [Behavior - Todo Tree]
+    "todo-tree.tree.showBadges": true,
+    "todo-tree.tree.showCountsInTree": true,
+    "todo-tree.general.tags": ["BUG", "HACK", "TODO", "[ ]"],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|\\{\\{--|\\{\\{--|^\\s*\\*|^)\\s*($TAGS)",
+    "todo-tree.filtering.excludeGlobs": ["**/node_modules", "**/vendor"],
+    // * [Behavior - Compare Folders]
+    "diffEditor.maxComputationTime": 0,
+    // * ==============
+    // * Specification
+    // * ============
+    // * [INTEL - Phoenix Alpine.js Syntax Highlight]
+    "alpine-intellisense.settings.languageScopes": "blade",
+    // * [INTEL - shell-format]
+    "[shellscript]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "shellformat.effectLanguages": ["shellscript", "dockerfile", "dotenv", "gitignore"],
+    "[php]": {
+        // * [Fold On Open]
+        // "foldOnOpen.targets": ["AllBlockComments"],
+        // * [PHP Intelephense]
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    // * [Format - Laravel Blade formatter]
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "bladeFormatter.format.noMultipleEmptyLines": true,
+    "bladeFormatter.format.wrapAttributes": "force-expand-multiline",
+    "bladeFormatter.format.wrapLineLength": 120,
+    "bladeFormatter.format.sortHtmlAttributes": "code-guide",
+    "bladeFormatter.format.sortTailwindcssClasses": true,
+    "bladeFormatter.misc.dontShowNewVersionMessage": true,
+    "bladeFormatter.format.indentInnerHtml": false,
+    // * [Format - Prettier - Code formatter]
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.requireConfig": false,
+    "prettier.printWidth": 130,
+    "prettier.proseWrap": "always",
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    // * [INTEL - PHP Intelephense]
+    // ! Disable @builtin php > PHP Language Features
+    // ! Enter your Intelephense licence key in your application's [settings.json] (not workspace, not the user)
+    "intelephense.telemetry.enabled": false,
+    // * [INTEL - Tailwind CSS IntelliSense]
+    "files.associations": {
+        "*.module": "php",
+        "*.css": "tailwindcss"
+    },
+    "tailwindCSS.classAttributes": [
+        "class",
+        "x-transition:enter",
+        "x-transition:enter-start",
+        "x-transition:enter-end",
+        "x-transition:leave",
+        "x-transition:leave-start",
+        "x-transition:leave-end"
+    ],
+    "tailwindCSS.experimental.classRegex": [
+        ["(?:@class|\\$attributes->class)\\(\\[?([^\\]]*)\\]?\\)", "'([^']*)'"],
+        ["(?:@twMerge|\\$attributes->twMerge)\\(\\[?([^\\]]*)\\]?\\)", "'([^']*)'"],
+        ["twMerge\\(\\[?([^\\]]*)\\]?\\)", "'([^']*)'"],
+        ["TailwindMerge\\:\\:merge\\(\\[?([^\\]]*)\\]?\\)", "'([^']*)'"],
+        ["\\$attributes->twMerge\\(([^)]*)\\)", "(\"[^\"]*\"|'[^']*')"]
+    ],
+    // * [INTEL - Laraphense]
+    "laraphense.disableAssetCompletion": true,
+    "laraphense.disableBladeCompletion": true,
+    "laraphense.disableEloquentCompletion": true,
+    "laraphense.disableEnvCompletion": true,
+    "laraphense.disableConfigCompletion": true,
+    "laraphense.disableMiddlewareCompletion": true,
+    "laraphense.disableRouteCompletion": true,
+    "laraphense.disableTranslationCompletion": true,
+    "laraphense.disableValidationCompletion": true,
+    "laraphense.disableViewCompletion": true,
+    "laraphense.expandLeadingNamespaceSeparator": true,
+    "laraphense.autoSortAfterImport": true
+}
