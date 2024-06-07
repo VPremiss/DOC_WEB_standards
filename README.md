@@ -1,6 +1,6 @@
 # TALL-STANDARDS
 
-Check out the [Wiki](https://github.com/VPremiss/TALL-STANDARDS/wiki) for the knowledge base.
+Check out the complete [Wiki](https://github.com/VPremiss/TALL-STANDARDS/wiki) for the knowledge base.
 
 ### Table of Content
 
