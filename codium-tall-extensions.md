@@ -26,6 +26,7 @@
 - [IHunte.laravel-blade-wrapper](https://github.com/IHunte/Laravel-Blade-Wrapper) [Not on VSX yet | [Market Link](https://marketplace.visualstudio.com/items?itemName=IHunte.laravel-blade-wrapper)]
 - [austenc.laravel-docs](https://github.com/austenc/vscode-laravel-docs) [Not on VSX yet | [Market Link](https://marketplace.visualstudio.com/items?itemName=austenc.laravel-docs)]
 - [amiralizadeh9480.laravel-extra-intellisense](https://github.com/amir9480/vscode-laravel-extra-intellisense)
+- [ctf0.php-array-symbols](https://github.com/ctf0/vscode-php-array-symbol-provider) [Not on VSX yet | [Market Link](https://marketplace.visualstudio.com/items?itemName=ctf0.php-array-symbols)]
 - [ctf0.laravel-goto-config](https://github.com/ctf0/laravel-goto-config) [Not on VSX yet | [Market Link](https://marketplace.visualstudio.com/items?itemName=ctf0.laravel-goto-config)]
 - [ctf0.laravel-goto-env](https://github.com/ctf0/laravel-goto-env) [Not on VSX yet | [Market Link](https://marketplace.visualstudio.com/items?itemName=ctf0.laravel-goto-env)]
 - [ctf0.laravel-goto-lang](https://github.com/ctf0/laravel-goto-lang) [Not on VSX yet | [Market Link](https://marketplace.visualstudio.com/items?itemName=ctf0.laravel-goto-lang)]
@@ -40,8 +41,7 @@
 - [bierner.markdown-preview-github-styles](https://github.com/mjbvz/vscode-github-markdown-preview-style)
 - [PKief.material-icon-theme](https://github.com/PKief/vscode-material-icon-theme)
 - [ryuta46.multi-command](https://github.com/ryuta46/vscode-multi-command)
-- [RisingStack.phoenix-alpinejs-syntax-highlight](https://github.com/RisingStack/astro-alpinejs-syntax-highlight) [Not on VSX yet | [Market Link](https://marketplace.visualstudio.com/items?itemName=RisingStack.astro-alpinejs-syntax-highlight)] 
-- [ctf0.php-array-symbols](https://github.com/ctf0/vscode-php-array-symbol-provider) [Not on VSX yet | [Market Link](https://marketplace.visualstudio.com/items?itemName=ctf0.php-array-symbols)]
+- [RisingStack.phoenix-alpinejs-syntax-highlight](https://github.com/RisingStack/astro-alpinejs-syntax-highlight) [Not on VSX yet | [Market Link](https://marketplace.visualstudio.com/items?itemName=RisingStack.astro-alpinejs-syntax-highlight)]
 - [MehediDracula.php-constructor](https://github.com/MehediDracula/PHP-Constructor) [Not on VSX yet | [Market Link](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-constructor)]
 - [xdebug.php-debug](https://github.com/xdebug/vscode-php-debug)
 - [bmewburn.vscode-intelephense-client](https://github.com/bmewburn/vscode-intelephense)
