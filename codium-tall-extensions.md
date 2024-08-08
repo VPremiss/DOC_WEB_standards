@@ -6,6 +6,7 @@
 
 - [patbenatar.advanced-new-file](https://github.com/patbenatar/vscode-advanced-new-file)
 - [pcbowers.alpine-intellisense](https://github.com/pcbowers/alpine-intellisense) [Not on VSX yet | [Market Link](https://marketplace.visualstudio.com/items?itemName=pcbowers.alpine-intellisense)]
+- [RisingStack.phoenix-alpinejs-syntax-highlight](https://github.com/RisingStack/astro-alpinejs-syntax-highlight) [Not on VSX yet | [Market Link](https://marketplace.visualstudio.com/items?itemName=RisingStack.astro-alpinejs-syntax-highlight)]
 - [formulahendry.auto-rename-tag](https://github.com/formulahendry/vscode-auto-rename-tag)
 - [chouzz.vscode-better-align](https://github.com/chouzz/vscode-better-align)
 - [aaron-bond.better-comments](https://github.com/aaron-bond/better-comments)
@@ -41,7 +42,6 @@
 - [bierner.markdown-preview-github-styles](https://github.com/mjbvz/vscode-github-markdown-preview-style)
 - [PKief.material-icon-theme](https://github.com/PKief/vscode-material-icon-theme)
 - [ryuta46.multi-command](https://github.com/ryuta46/vscode-multi-command)
-- [RisingStack.phoenix-alpinejs-syntax-highlight](https://github.com/RisingStack/astro-alpinejs-syntax-highlight) [Not on VSX yet | [Market Link](https://marketplace.visualstudio.com/items?itemName=RisingStack.astro-alpinejs-syntax-highlight)]
 - [MehediDracula.php-constructor](https://github.com/MehediDracula/PHP-Constructor) [Not on VSX yet | [Market Link](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-constructor)]
 - [xdebug.php-debug](https://github.com/xdebug/vscode-php-debug)
 - [bmewburn.vscode-intelephense-client](https://github.com/bmewburn/vscode-intelephense)
